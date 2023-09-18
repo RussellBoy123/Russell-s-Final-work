@@ -274,7 +274,7 @@ function collectibles() {
     //     obstacle.addImage(sugar)
     //     collectibleGroup.add(obstacle)
     // }
-    if (frameCount % 10 === 0) {
+    if (frameCount % 100 === 0) {
         rand = Math.round(random(height / 4, height - 100))
             collectible = createSprite(player.x+width/2, player.y)
         collectible.velocityX = -2
