@@ -267,7 +267,7 @@ function mute() {
 function collectibles() {
     //write code here to spawn the clouds
 
-    // if (frameCount % 10  == 0) {
+    // if (frameCount % 100 == 0) {
     //     rand = Math.round(random(height / 4, height - 100))
     //     obstacle = createSprite(player.x+width/2, player.y)
     //     obstacle.velocityX = -2
